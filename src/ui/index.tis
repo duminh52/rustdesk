@@ -8,7 +8,7 @@ const incoming_only_width = 180;
 
 const outgoing_only = handler.is_outgoing_only();
 const incoming_only = handler.is_incoming_only();
-const disable_installation = handler.is_disable_installation();
+const disable_installation = true;
 const disable_account = handler.is_disable_account();
 const disable_settings = handler.is_disable_settings();
 const is_custom_client = handler.is_custom_client();
